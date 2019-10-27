@@ -26,21 +26,21 @@ author1:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         jekyllrb
-    github:          qwtel/hydejack
+    twitter:         black1z4rd
+    github:          blackwiz4rd
     # download:        <url>
-    # email:           <mail@domain.tld>
+    email:           luca_attanasio@me.com
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        luca.attanasio96
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         blackw1z4rd
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       luca_attanasio
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -58,7 +58,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        luca-attanasio
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
