@@ -9,8 +9,7 @@ title: About
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  About page.
 
 # You can show the description on the page by deleting this line:
 hide_description: true
@@ -19,10 +18,11 @@ hide_description: true
 image: /assets/img/blog/hydejack-8.png
 ---
 
-This website includes my student career, portfolio and contacts.
+This website includes my student career, [projects] and contacts.
 My updated curriculum vitae, first certificate and transcript of records are available on request at this [google drive link].
 {:.lead}
 
+[projects]: /projects/
 [google drive link]: https://drive.google.com/drive/folders/1I4cr069Hqpecq6MbcY5tIQ18dPuHCusB?usp=sharing
 
 > I am a young information technology engineer born in year 0x7cc. I am attending a master's degree in "[ICT] for internet and multimedia" at the University of Padova, Italy. I find it cool to learn new things everyday.
