@@ -4,13 +4,12 @@
 layout: page
 
 # The title of the page.
-title: Bachelor's degree
+title: Bachelor's degree, Oct 2015 - July 2018
 
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  My bachelor's degere page.
 
 # You can show the description on the page by deleting this line:
 hide_description: true
@@ -27,9 +26,10 @@ image: /assets/img/blog/hydejack-8.png
 }
 </style>
 
-[Information technology] engineering degree.
+[Information technology] engineering degree. Check out my blog post to see my [thesis] work.
 {:.lead}
 
+[thesis]: /projects/2018-07-16-dash/
 [Information technology]: https://didattica.unipd.it/off/2015/LT/IN/IN0513
 
 2015-2016

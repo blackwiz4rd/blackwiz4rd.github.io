@@ -4,13 +4,12 @@
 layout: page
 
 # The title of the page.
-title: Master's degree
+title: Master's degree, Oct 2018 - now
 
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  My master's degree page.
 
 # You can show the description on the page by deleting this line:
 hide_description: true
