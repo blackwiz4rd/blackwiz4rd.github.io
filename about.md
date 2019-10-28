@@ -20,7 +20,10 @@ image: /assets/img/blog/hydejack-8.png
 ---
 
 This website includes my student career, portfolio and contacts.
+My updated curriculum vitae, first certificate and transcript of records are available on request at this [google drive link].
 {:.lead}
+
+[google drive link]: https://drive.google.com/drive/folders/1I4cr069Hqpecq6MbcY5tIQ18dPuHCusB?usp=sharing
 
 > I am a young information technology engineer born in year 0x7cc. I am attending a master's degree in "[ICT] for internet and multimedia" at the University of Padova, Italy. I find it cool to learn new things everyday.
 {:.lead}
