@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Augmented Reality - Stereo disparity computation from projected random dot pattern
+title: ImageWithActivityIndicator - A SwiftUI package that displays a view with indicator
 description: >
   SwiftUI view that downloads and displays a view (e.g. image) from URL, displaying Activity Indicator while loading.
 noindex: true
