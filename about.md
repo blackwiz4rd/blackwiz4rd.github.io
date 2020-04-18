@@ -29,7 +29,7 @@ My updated curriculum vitae, first certificate and transcript of records are ava
 {:.lead}
 
 My bachelor's [thesis] was focused on video streaming. I have evaluated video streaming algorithms performances based on quality of experience in different network conditions using a DASH player.
-From my thesis, an article on IEEE was published by the name: [Comparing DASH Adaptation Algorithms in a Real Network Environment]
+Starting from my thesis work, an article was published on the IEEE journal by the name: [Comparing DASH Adaptation Algorithms in a Real Network Environment].
 {:.lead}
 
 [Comparing DASH Adaptation Algorithms in a Real Network Environment]: https://ieeexplore.ieee.org/abstract/document/8835954
