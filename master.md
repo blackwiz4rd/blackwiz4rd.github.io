@@ -61,7 +61,7 @@ Information and Communication Technologies ([ICT]) for internet and multimedia e
 </div> <br/>
 2019-2020
 <div class="progress">
-  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: calc(28.33/30*100%);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Security in Operating System and Software</div>
+  <div class="progress-bar bg-success" role="progressbar" style="width: calc(28.33/30*100%);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Security in Operating System and Software</div>
 </div> <br/>
 <div class="progress">
   <div class="progress-bar bg-success" role="progressbar" style="width: calc(28.33/30*100%);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Ethical hacking</div>
