@@ -24,14 +24,17 @@ My updated curriculum vitae, first certificate and transcript of records are ava
 
 [projects]: /projects/
 [google drive link]: https://drive.google.com/drive/folders/1I4cr069Hqpecq6MbcY5tIQ18dPuHCusB?usp=sharing
-
-> I am a young information technology engineer born in year 0x7cc. I am attending a master's degree in "[ICT] for internet and multimedia" at the University of Padova, Italy. I find it cool to learn new things everyday.
+ I am a young [ICT] engineer born in year 0x7cc. I am currently a researcher for the Security & Privacy Research Group ([SPRITZ]) at University of Padova, Italy.
 {:.lead}
 
-My bachelor's [thesis] was focused on video streaming. I have evaluated video streaming algorithms performances based on quality of experience in different network conditions using a DASH player.
+My [master-thesis] was focused on smart cards. I studied how the ISO 14443, NFC and EMV work and performed experiments with RTL-SDR devices to understand their communicaiton logic. Moreover, I also performed a smartcard security assesment for the client's of a company in which I had the internship.
+
+My [bachelor-thesis] was focused on video streaming. I have evaluated video streaming algorithms performances based on quality of experience in different network conditions using a DASH player.
 Starting from my thesis work, an article was published on the IEEE journal by the name: [Comparing DASH Adaptation Algorithms in a Real Network Environment].
 {:.lead}
 
 [Comparing DASH Adaptation Algorithms in a Real Network Environment]: https://ieeexplore.ieee.org/abstract/document/8835954
 [ICT]: https://www.unipd.it/en/ict-internet-multimedia
-[thesis]: /projects/2018-07-16-dash/
+[SPRITZ]: https://spritz.math.unipd.it/
+[master-thesis]: /projects/2020-07-21-smartcard/
+[bachelor-thesis]: /projects/2018-07-16-dash/
