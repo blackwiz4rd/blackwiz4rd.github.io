@@ -18,20 +18,20 @@ hide_description: true
 image: /assets/img/blog/hydejack-8.png
 ---
 
+{:.lead}
 This website includes my student career, [projects] and contacts.
 My updated curriculum vitae, first certificate and transcript of records are available on request at this [google drive link].
-{:.lead}
 
 [projects]: /projects/
 [google drive link]: https://drive.google.com/drive/folders/1I4cr069Hqpecq6MbcY5tIQ18dPuHCusB?usp=sharing
- I am a young [ICT] engineer born in year 0x7cc. I am currently a researcher for the Security & Privacy Research Group ([SPRITZ]) at University of Padova, Italy.
-{:.lead}
+ > I am a young [ICT] engineer born in year 0x7cc. I am currently a researcher for the Security & Privacy Research Group ([SPRITZ]) at University of Padova, Italy.
 
+{:.lead}
 My [master-thesis] was focused on smart cards. I studied how the ISO 14443, NFC and EMV work and performed experiments with RTL-SDR devices to understand their communicaiton logic. Moreover, I also performed a smartcard security assesment for the client's of a company in which I had the internship.
 
+{:.lead}
 My [bachelor-thesis] was focused on video streaming. I have evaluated video streaming algorithms performances based on quality of experience in different network conditions using a DASH player.
 Starting from my thesis work, an article was published on the IEEE journal by the name: [Comparing DASH Adaptation Algorithms in a Real Network Environment].
-{:.lead}
 
 [Comparing DASH Adaptation Algorithms in a Real Network Environment]: https://ieeexplore.ieee.org/abstract/document/8835954
 [ICT]: https://www.unipd.it/en/ict-internet-multimedia
