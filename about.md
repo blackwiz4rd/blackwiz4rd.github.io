@@ -24,10 +24,11 @@ My updated curriculum vitae, first certificate and transcript of records are ava
 
 [projects]: /projects/
 [google drive link]: https://drive.google.com/drive/folders/1I4cr069Hqpecq6MbcY5tIQ18dPuHCusB?usp=sharing
- > I am a young [ICT] engineer born in year 0x7cc. I am currently a researcher for the Security & Privacy Research Group ([SPRITZ]) at University of Padova, Italy.
+ > I am a young [ICT] engineer born in year 0x7cc. I am currently for [RCH S.p.A.](https://rch.it), a leader in cash regsiter's market in Italy. In particular, I am the technical leader for the app RCH PayBox, the payment services integrator for merchants. 
+ I previously worked as a researcher for the Security & Privacy Research Group ([SPRITZ]) at University of Padova, Italy.
 
 {:.lead}
-My [master-thesis] was focused on smart cards. I studied how the ISO 14443, NFC and EMV work and performed experiments with RTL-SDR devices to understand their communicaiton logic. Moreover, I also performed a smartcard security assesment for the client's of a company in which I had the internship.
+My [master-thesis] was focused on smart cards. I studied ISO 14443, NFC and EMV standards and performed experiments with RTL-SDR devices to understand their communicaiton logic. Moreover, I also performed a smartcard security assesment for the client's of a company in which I had the internship. This work resulted in a year of contract with ([SPRITZ]) group which ended up with a research published on blocking cards.
 
 {:.lead}
 My [bachelor-thesis] was focused on video streaming. I have evaluated video streaming algorithms performances based on quality of experience in different network conditions using a DASH player.
