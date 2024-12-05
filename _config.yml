@@ -339,3 +339,8 @@ compress_html:
 
 sass:
   style:               compressed
+
+# slides plugin
+reveal:
+  transition: "slide" # none/fade/slide/convex/concave/zoom
+  theme: "black" # beige/blood/league/moon/night/serif/simple/sky/solarized/white

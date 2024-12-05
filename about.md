@@ -39,3 +39,4 @@ Starting from my thesis work, an article was published on the IEEE journal by th
 [SPRITZ]: https://spritz.math.unipd.it/
 [master-thesis]: /projects/2020-07-21-smartcard/
 [bachelor-thesis]: /projects/2018-07-16-dash/
+
