@@ -34,6 +34,14 @@ hide_description: true
 
 </style>
 # Kotlin Course
+### Kotlin Lessons
+Code on GitHub: [https://github.com/blackwiz4rd/kotlinwithluca](https://github.com/blackwiz4rd/kotlinwithluca).
+
+- Kotlin Course:
+    - [Lesson 1: Master Kotlin Basics: Understanding Kotlin syntax 🚀](https://www.youtube.com/watch?v=7T9JsE2Z6iQ&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=5)
+    - [Lesson 2: Master Kotlin Basics: Idioms 🚀](https://www.youtube.com/watch?v=ZWMBHtHIay4&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=4)
+    - [Lesson 3: Master Kotlin Basics: Coding conventions 🚀](https://www.youtube.com/watch?v=Qwc7zASPqug&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=3)
+    - [Lesson 4: Master Kotlin Basics: Understanding Kotlin syntax 🚀](https://www.youtube.com/watch?v=FyguyMiTWsE&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=2)
 
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
@@ -44,10 +52,6 @@ hide_description: true
 <!-- Google embed ends -->
 </div>
 
-This is the table of contents of the kotlin course.
-### Lesson 1: Basic Syntax
-- [Kotlin Course](#kotlin-course)
-    - [Lesson 1: Basic Syntax](#lesson-1-basic-syntax)
 
 <!-- - [Kotlin Course](#kotlin-course)
   - [Introduction to Kotlin](#introduction-to-kotlin)
