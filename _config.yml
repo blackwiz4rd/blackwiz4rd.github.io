@@ -57,6 +57,8 @@ menu:
     url:               /about/
   # - title:             Consultancy
   #   url:               /consultant
+  - title:             Book Meeting
+    url:               /consultancy
   - title:             Courses
     url:               /courses
 
