@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Book Consultancy Meeting
+title: Book Your Consultancy Meeting
 ---
 
 # 🚀 Software Engineering Productivity Consultancy  
 **Consulenza per startup e aziende — Architettura, Framework e Produttività**
-
-> Redirect now to [https://calendly.com/blackwiz4rd/](https://calendly.com/blackwiz4rd/)
 
 ---
 
@@ -131,10 +129,10 @@ Migliorare la **produttività aziendale** e la **qualità del software** attrave
 
 ## 📞 Contatti
 
-**Consulente:** _Luca_  
+**Consulente:** Luca Attanasio  
 **Ruolo:** Software Engineer & Architecture Consultant  
-**Email:** [tua-email@dominio.com]  
-**LinkedIn:** [linkedin.com/in/tuonome](#)  
+**Email:** luca_attanasio@me.com  
+**LinkedIn:** [linkedin.com/in/luca-attanasio](#)
 **Sede:** Treviso, Italia  
 
 ---
