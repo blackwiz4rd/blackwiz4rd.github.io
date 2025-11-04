@@ -49,10 +49,8 @@ author:
 menu:
   - title:             Projects
     url:               /projects/
-  - title:             Bachelor
-    url:               /bachelor/
-  - title:             Master
-    url:               /master/
+  - title:             University
+    url:               /university/
   - title:             About
     url:               /about/
   # - title:             Consultancy

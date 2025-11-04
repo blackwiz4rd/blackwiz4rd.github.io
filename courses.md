@@ -9,7 +9,7 @@ title: Courses
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Courses page.
+  Courses page for Kotlin.
 
 # You can show the description on the page by deleting this line:
 hide_description: true
@@ -34,18 +34,53 @@ hide_description: true
 
 </style>
 # Kotlin Course
-### Kotlin Lessons
 Code on GitHub: [https://github.com/blackwiz4rd/kotlinwithluca](https://github.com/blackwiz4rd/kotlinwithluca).
+# 🎓 Master Kotlin Basics — Livestream Series Summary
 
-- Kotlin Course:
-    - [Lesson 1: Master Kotlin Basics: Understanding Kotlin syntax 🚀](https://www.youtube.com/watch?v=7T9JsE2Z6iQ&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=5)
-    - [Lesson 2: Master Kotlin Basics: Idioms 🚀](https://www.youtube.com/watch?v=ZWMBHtHIay4&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=4)
-    - [Lesson 3: Master Kotlin Basics: Coding conventions 🚀](https://www.youtube.com/watch?v=Qwc7zASPqug&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=3)
-    - [Lesson 4: Master Kotlin Basics: Number Types 🚀](https://www.youtube.com/watch?v=FyguyMiTWsE&list=PLMm9Oe9og_vv3xqoAk4L6DB5ApUr6uY08&index=2)
-    - [Lesson 5: Master Kotlin Basics: Unsigned, Booleans, Characters, Strings Types 🚀](https://youtube.com/live/qk_wcUUBdd4)
-    - [Lesson 6: Master Kotlin Basics: Array Types 🚀](https://youtube.com/live/BUoDeMC6sCo)
-    - [Lesson 7: Master Kotlin Basics: Type checks and casts 🚀](https://youtube.com/live/puM7lNsS5dE)
-    - [Lesson 8: Master Kotlin Basics: Conditions and loops 🚀](https://youtube.com/live/t6JOqqUVLPw)
+A **YouTube livestream series** dedicated to **mastering Kotlin fundamentals**, streamed over the past 10 months.  
+It features **20+ in-depth sessions** ranging from **30 minutes to nearly 2 hours**, progressively covering everything from beginner to advanced Kotlin topics.
+
+---
+
+## 📚 Key Topics Covered
+
+### 🧩 Core Kotlin Fundamentals
+- Kotlin syntax and structure  
+- Number, string, and array types  
+- Conditions and loops  
+- Type checks and casts  
+
+### 🧱 Object-Oriented Programming
+- Classes and inheritance  
+- Interfaces and visibility modifiers  
+- Delegation and type aliases  
+- Object declarations and expressions  
+
+### ⚙️ Functional Programming
+- Lambdas and inline functions  
+- Functional (SAM) interfaces  
+- Extension functions and properties  
+
+### 🚀 Advanced Kotlin Features
+- Sealed classes and interfaces  
+- Generics (`in`, `out`, `where`)  
+- Inline value classes  
+- Operator overloading  
+- Builders  
+
+### 🧠 Kotlin Best Practices
+- Idiomatic Kotlin usage  
+- Coding conventions  
+
+### 💻 Practical Project
+- **Firebase Performance SDK (KMP)** — live implementation of missing classes  
+
+---
+
+## 🔥 Overall Summary
+A **comprehensive Kotlin learning journey**, streamed live and interactively.  
+The series takes viewers from foundational syntax to professional-level mastery, blending **hands-on coding**, **theory**, and **best practices** for real-world Kotlin development.
+
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
 </style>
@@ -54,30 +89,3 @@ Code on GitHub: [https://github.com/blackwiz4rd/kotlinwithluca](https://github.c
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNFfxPJ0NDWnyth4Eb72iPR5dqNMNOy__rmkLKDYxKKeH9R3ZJCiQm_Qlw0O8V_Mjptf64K_fTWBcL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
-
-
-<!-- - [Kotlin Course](#kotlin-course)
-  - [Introduction to Kotlin](#introduction-to-kotlin)
-    - [Functions](#functions)
-    - [Classes, objects, interfaces](#classes-objects-interfaces)
-    - [Lambdas](#lambdas)
-    - [Type system](#type-system)
-  - [Embracing Kotlin](#embracing-kotlin)
-    - [Operator overloading and other conventions](#operator-overloading-and-other-conventions)
-    - [High-order functions: lambdas as parameters and return values](#high-order-functions-lambdas-as-parameters-and-return-values)
-    - [Generics](#generics)
-    - [Annotations and reflections](#annotations-and-reflections)
-    - [DSL Construction](#dsl-construction) -->
-
-
-<!-- ## Introduction to Kotlin
-### Functions
-### Classes, objects, interfaces
-### Lambdas
-### Type system
-## Embracing Kotlin
-### Operator overloading and other conventions
-### High-order functions: lambdas as parameters and return values
-### Generics
-### Annotations and reflections
-### DSL Construction -->

@@ -11,5 +11,5 @@ slug: projects
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   This is a list of my personal projects.
-  I also included some homeworks I made during my student's career.
+  I've also included some homeworks I made during my student's career.
 ---
