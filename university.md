@@ -23,10 +23,8 @@ image: /assets/img/blog/hydejack-8.png
 
 ## 🎓 Bachelor's Degree — Information Technology Engineering  
 **University of Padova** — *Oct 2015 – July 2018*  
-[Information technology]: https://didattica.unipd.it/off/2015/LT/IN/IN0513  
-[thesis]: /projects/2018-07-16-dash/  
 
-[Information technology] engineering degree. Check out my [thesis] work.  
+[Information technology course page](https://didattica.unipd.it/off/2015/LT/IN/IN0513) engineering degree. Check out my [thesis](/projects/2018-07-16-dash/) work.  
 {:.lead}
 
 ### 2015–2016
@@ -58,7 +56,7 @@ image: /assets/img/blog/hydejack-8.png
 
 ## 🎓 Master's Degree — ICT for Internet and Multimedia Engineering  
 **University of Padova** — *Oct 2018 – July 2020*  
-[ICT]: https://www.unipd.it/en/ict-internet-multimedia  
+[ICT Course Page] https://www.unipd.it/en/ict-internet-multimedia  
 
 Information and Communication Technologies ([ICT]) for Internet and Multimedia Engineering degree.  
 {:.lead}

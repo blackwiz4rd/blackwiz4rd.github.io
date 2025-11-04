@@ -1,3 +1,4 @@
+---
 # This page uses Hydejack's `about` layout, which displays the primary author's picture and biography at the top.
 # You can switch to the standard `page` layout if you prefer.
 layout: about
