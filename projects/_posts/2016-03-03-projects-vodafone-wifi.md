@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Vodafone-WiFi-AutoLogin
+title: "Vodafone-WiFi-AutoLogin"
 description: >
   This script allows to connect to any Vodafone-WiFi belonging to Vodafone-WiFi community automatically.
-image: https://www.etruscanet.com/wp-content/uploads/2018/03/finestra-dfastidiosa.jpg
 noindex: true
 ---
 
