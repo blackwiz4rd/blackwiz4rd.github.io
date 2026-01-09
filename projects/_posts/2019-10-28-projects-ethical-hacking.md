@@ -1,15 +1,11 @@
 ---
 layout: post
-title: Ethical hacking challenges and Security in Operating Systems homework
+title: "Ethical Hacking Challenges and Security in Operating Systems Homework"
 description: >
-  Ethical hacking challenges solutions for hackingarena.no and security in operating systems homework.
+  Solutions to Ethical Hacking challenges on hackingarena.no and Security in Operating Systems homework.
 noindex: true
 ---
+This post contains solutions for Ethical Hacking challenges on [HackingArena](https://hackingarena.no/home/index.html),  
+as well as the [Security in Operating Systems](https://www.uio.no/studier/emner/matnat/its/TEK5510/index-eng.html) homework.
 
-Solutions for [hackingarena] challenges are posted here, as well as the [security in operating systems] homework.
-
-The document is on request only access at the following [google drive link].
-
-[google drive link]: https://drive.google.com/drive/folders/1nLDz4_P2o1ocWKK5bgE-My7iAe_8JSx-?usp=sharing
-[hackingarena]: https://hackingarena.no/home/index.html
-[security in operating systems]: https://www.uio.no/studier/emner/matnat/its/TEK5510/index-eng.html
+The full document is available on request via the following [Google Drive link](https://drive.google.com/drive/folders/1nLDz4_P2o1ocWKK5bgE-My7iAe_8JSx-?usp=sharing).

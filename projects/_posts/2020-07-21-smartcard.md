@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Master's Thesis - Experimental Evaluation Of Smart Cards Security
+title: "Master's Thesis – Experimental Evaluation of Smart Card Security"
 description: >
-  This thesis is an experimental evaluation of NFC and RFID security of contactless cards protocols, including ISO 14443 and EMV.
+  Experimental evaluation of NFC and RFID security in contactless smart card protocols, including ISO 14443 and EMV.
 noindex: true
 ---
+Contactless smart cards are widely used in everyday life for a variety of applications,  
+including tap-and-go payment cards, building access control, parking tickets, toll highways, ski passes, and public transport systems.  
 
-Contactless smart cards are commonly used in every day life for a wide variety of ap-
-plications ranging from tap-and-go payment cards, access control for buildings, parking tickets and toll highways as well as ski-passes and public transport systems. Moreover, most of the phones marketed nowadays embed NFC chips allowing card emulation. Thus, smartphones have turned out to provide the same functionality as smart cards, proving enhanced high-level security features. Nevertheless, some smart cards systems, including payment systems, are vulnerable to attacks. As a result, end-users must carefully protect their cards privacy when keeping contactless smart cards in their pockets.
+Many modern smartphones also embed NFC chips, allowing card emulation.  
+As a result, smartphones can provide similar functionality to smart cards while offering enhanced high-level security features.  
+
+Nevertheless, some smart card systems, including certain payment systems, remain vulnerable to attacks.  
+End-users must therefore take care to protect the privacy and security of their contactless smart cards, even when carrying them in pockets or bags.
