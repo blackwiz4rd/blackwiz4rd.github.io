@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "PUN vs PSV in Home Assistant"
+title: "PUN and PSV in Home Assistant"
 description: >
   Visualizing PUN and PSV indices in Home Assistant
 noindex: true
+# image: /assets/img/pun-psv.png
 ---
 
 The following pages:
@@ -13,6 +14,10 @@ The following pages:
 
 provide access to historical data for the **PUN** and **PSV** indices.  
 Being able to visualize these values over time directly in **Home Assistant** is very useful for monitoring energy costs and trends.
+<!-- 
+<img src="{{ '/assets/img/pun-psv.png' | relative_url }}" alt="PUN & PSV">
+
+<img src="{{ site.baseurl }}/assets/img/pun-psv.png" alt="PUN & PSV"> -->
 
 For this reason, I created a script that fetches and exposes this data so it can be plotted inside Home Assistant.
 
@@ -72,10 +77,107 @@ template:
 ```
 {% endraw %}
 
+The scripts you should place in `/config/scripts/` will make the API call to get the data:
+
+psv_scraper.py
+```py
+import requests
+from bs4 import BeautifulSoup
+import json
+
+def get_psv_data():
+    url = 'https://luceegasitalia.it/indici-pun-e-psv/psv/'
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        matrix = []
+        table = soup.find('table')
+        if table:
+            rows = table.find_all('tr')
+            for row in rows:
+                cells = row.find_all('td')
+                data = [cell.get_text(strip=True).replace('\xa0', ' ') for cell in cells]
+                if len(data) >= 2 and "MESE" not in data[0]:
+                    # Convert price to float immediately for easier plotting later
+                    try:
+                        p_float = float(data[1].replace(',', '.'))
+                    except:
+                        p_float = 0
+                    matrix.append({"month": data[0], "price": p_float})
+        
+        # We return a DICT, not a list, so HA can parse it easily
+        return json.dumps({
+            "latest": matrix[0]["price"] if matrix else 0,
+            "history": matrix
+        })
+    except Exception as e:
+        return json.dumps({"error": str(e)})
+
+if __name__ == "__main__":
+    print(get_psv_data())
+```
+
+pun_scraper.py
+```py
+import requests
+from bs4 import BeautifulSoup
+import json
+
+def get_pun_data():
+    url = 'https://luceegasitalia.it/indici-pun-e-psv/pun/'
+    headers = {'User-Agent': 'Mozilla/5.0'}
+
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        matrix = []
+        table = soup.find('table')
+
+        if table:
+            rows = table.find_all('tr')
+            for row in rows:
+                cells = row.find_all('td')
+                data = [cell.get_text(strip=True).replace('\xa0', ' ') for cell in cells]
+
+                # MESE | F1 | F2 | F3
+                if len(data) >= 4 and "MESE" not in data[0]:
+                    try:
+                        # Convert to float immediately for HA
+                        f1 = float(data[1].replace(',', '.'))
+                        f2 = float(data[2].replace(',', '.'))
+                        f3 = float(data[3].replace(',', '.'))
+                        matrix.append({
+                            "month": data[0],
+                            "F1": f1,
+                            "F2": f2,
+                            "F3": f3
+                        })
+                    except ValueError:
+                        continue
+
+        # Calculate a simple average of the most recent month for the main state
+        latest_avg = 0
+        if matrix:
+            latest_avg = round((matrix[0]["F1"] + matrix[0]["F2"] + matrix[0]["F3"]) / 3, 5)
+
+        return json.dumps({
+            "latest": latest_avg,
+            "history": matrix
+        })
+
+    except Exception as e:
+        return json.dumps({"error": str(e)})
+
+if __name__ == "__main__":
+    print(get_pun_data())
+```
+
 
 ## Automations
 
-Add the following to your automations:
+Add the following to your automation:
 
 
 ```yaml
@@ -101,11 +203,10 @@ actions:
         - sensor.pun_luce_all_data
 mode: single
 ```
-## Python dependencies
 
 In order to fill data for the first time, you can trigger the following automation manually.
 
-To install the required Python dependencies at boot (or alternatively install them manually using `pip install beautifulsoup4 requests` from the Hass.io CLI -> might break during updates), use:
+This automation is required to install the required Python dependencies at boot (or alternatively install them manually using `pip install beautifulsoup4 requests` from the Hass.io CLI -> might break during updates), use:
 
 ```yaml
 alias: Install Python Deps on Boot
@@ -119,6 +220,8 @@ actions:
 ```
 
 ## Custom Cards
+
+Make sure to install ApexCharts from [HACS](https://www.hacs.xyz/docs/use/configuration/basic/#to-set-up-the-hacs-integration).
 
 Storico Prezzi PSV Gas:
 ```yaml
